@@ -16,7 +16,7 @@ const WelcomeMessage = () => {
             </a>
           </div>
           <div className="top-right-corner">
-            <a href="/" id="sign-up-link">
+            <a href={process.env.PUBLIC_URL + "/"} id="sign-up-link">
               Become a tutor
             </a>
             <button className="ui button">Sign in</button>
