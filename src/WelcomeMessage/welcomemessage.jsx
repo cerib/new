@@ -6,7 +6,7 @@ const WelcomeMessage = () => {
       <div className="ui container">
         <div className="navbar">
           <div className="top-left-corner">
-            <a href="/">
+            <a href={process.env.PUBLIC_URL + "/"}>
               <img
                 alt="tutormatch logo"
                 src={
